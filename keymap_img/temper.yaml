@@ -170,3 +170,13 @@ layers:
 combos:
 - p: [0, 1]
   k: ⎋
+- p: [12, 17]
+  k: CAPSLOCK
+- p: [13, 16]
+  k: ⇪
+- p: [22, 21]
+  k: Ctl+C
+- p: [23, 22]
+  k: Ctl+V
+- p: [20, 21]
+  k: Ctl+X
