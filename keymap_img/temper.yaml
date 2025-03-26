@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: temper}
 layers:
-  default:
+  base:
   - - Q
     - W
     - F
@@ -23,11 +23,11 @@ layers:
     - {t: ., s: ':'}
     - {t: '?', s: '!'}
   - - ⌘
-    - num
+    - numnav
     - {t: ⇧, s: ⇪}
     - SPACE
-    - nav
-    - {t: default, h: toggle}
+    - sym
+    - {t: base, h: toggle}
   game:
   - - ↹
     - Q
@@ -65,7 +65,7 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-  num:
+  numnav:
   - - '~'
     - '@'
     - '{'
@@ -93,7 +93,7 @@ layers:
     - '0'
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-  nav:
+  sym:
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
@@ -130,7 +130,7 @@ layers:
     - {t: ▽, type: trans}
     - {type: held}
     - {t: ▽, type: trans}
-  fun:
+  func:
   - - {t: game, h: toggle}
     - MUTE
     - VOL DN
@@ -167,3 +167,6 @@ layers:
     - {t: ▽, type: trans}
     - {type: held}
     - {t: ▽, type: trans}
+combos:
+- p: [0, 1]
+  k: ⎋
