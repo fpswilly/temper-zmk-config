@@ -99,35 +99,41 @@
             bindings = <&kp ESCAPE>;
             key-positions = <0 1>;
             require-prior-idle-ms = <150>;
+            layers = <0>;
         };
 
         CAPSLCK {
             bindings = <&kp CAPSLOCK>;
             key-positions = <12 17>;
             require-prior-idle-ms = <150>;
+            layers = <0>;
         };
 
         CAPSWRD {
             bindings = <&caps_word>;
             key-positions = <13 16>;
+            layers = <0>;
         };
 
         copy {
             bindings = <&kp LC(C)>;
             key-positions = <22 21>;
             require-prior-idle-ms = <150>;
+            layers = <0>;
         };
 
         paste {
             bindings = <&kp LC(V)>;
             key-positions = <23 22>;
             require-prior-idle-ms = <150>;
+            layers = <0>;
         };
 
         cut {
             bindings = <&kp LC(X)>;
             key-positions = <20 21>;
             require-prior-idle-ms = <150>;
+            layers = <0>;
         };
     };
 
