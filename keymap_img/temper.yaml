@@ -179,3 +179,5 @@ combos:
 - p: [20, 21]
   k: Ctl+X
   l: [base]
+- p: [0, 1, 2, 3, 30, 31, 32]
+  k: '&bootloader'
