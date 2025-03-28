@@ -139,6 +139,11 @@
             require-prior-idle-ms = <150>;
             layers = <0>;
         };
+
+        bootloader {
+            bindings = <&bootloader>;
+            key-positions = <0 1 2 3 30 31 32>;
+        };
     };
 
     macros {
