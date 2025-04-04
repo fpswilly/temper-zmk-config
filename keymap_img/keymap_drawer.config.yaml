@@ -88,7 +88,7 @@ draw_config:
         fill: none;
     }
 parse_config:
-  assign_combos_to_layers: false
+  assign_combos_to_layers: true
   preprocess: true
   qmk_keycode_map:
     AMPERSAND: '&'
