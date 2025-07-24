@@ -119,7 +119,7 @@
             label = "SWAPPER";
             #binding-cells = <0>;
             bindings = <&kt LALT>, <&kp TAB>, <&kt LALT>;
-            ignored-key-positions = <1>;
+            ignored-key-positions = <2>;
     };
 
     combos {
@@ -226,10 +226,10 @@
 
         SYMBOLS_LAYER {
             bindings = <
-&kp LS(NUMBER_2)  &kp LS(TAB)    &kp LEFT_ALT      &swap          &kp RA(NUMBER_4)  &kp PLUS         &kp MINUS      &kp UNDERSCORE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&kp EXCLAMATION   &magic_quotes  &kp LS(NUMBER_3)  &kp DOLLAR     &kp PERCENT       &kp CARET        &kp AMPERSAND  &kp ASTERISK    &magic_parenthesis    &kp LS(SQT)
-&kp LC(Z)         &kp LC(X)      &kp LC(C)         &kp LS(LG(S))  &kp LC(V)         &kp NON_US_BSLH  &kp COLON      &kp SEMICOLON   &kp LS(NON_US_HASH)   &kp NON_US_HASH
-                                 &trans            &trans         &trans            &trans           &trans         &trans
+&kp LS(NUMBER_2)  &kp LS(NUMBER_2)   &kp LS(TAB)       &swap          &kp RA(NUMBER_4)  &kp PLUS         &kp MINUS      &kp UNDERSCORE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&kp EXCLAMATION   &magic_quotes      &kp LS(NUMBER_3)  &kp DOLLAR     &kp PERCENT       &kp CARET        &kp AMPERSAND  &kp ASTERISK    &magic_parenthesis    &kp LS(SQT)
+&kp LC(Z)         &kp LC(X)          &kp LC(C)         &kp LS(LG(S))  &kp LC(V)         &kp NON_US_BSLH  &kp COLON      &kp SEMICOLON   &kp LS(NON_US_HASH)   &kp NON_US_HASH
+                                     &trans            &trans         &trans            &trans           &trans         &trans
             >;
 
             label = "sym";
