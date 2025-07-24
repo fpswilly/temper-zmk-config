@@ -113,6 +113,13 @@
             #binding-cells = <0>;
             mods = <(MOD_LSFT)>;
         };
+
+        swap: swapper {
+            compatible = "zmk,behavior-tri-state";
+            label = "SWAPPER";
+            #binding-cells = <0>;
+            bindings = <&kt LALT>, <&kp TAB>, <&kt LALT>;
+            ignored-key-positions = <1>;
     };
 
     combos {
