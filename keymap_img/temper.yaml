@@ -176,7 +176,7 @@ combos:
 - p: [12, 17]
   k: CAPSLOCK
   l: [base]
-- p: [13, 16]
+- p: [32, 33]
   k: ⇪
   l: [base]
 - p: [22, 21]
