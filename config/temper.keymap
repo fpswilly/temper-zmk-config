@@ -134,14 +134,15 @@
 
         CAPSWRD {
             bindings = <&caps_word>;
-            key-positions = <13 16>;
+            key-positions = <32 33>;
             layers = <0>;
+            require-prior-idle-ms = <100>;
         };
 
         copy {
             bindings = <&kp LC(C)>;
             key-positions = <22 21>;
-            require-prior-idle-ms = <150>;
+            require-prior-idle-ms = <100>;
             layers = <0>;
         };
 
