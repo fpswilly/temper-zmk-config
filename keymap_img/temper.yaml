@@ -95,7 +95,7 @@ layers:
     - '1'
     - '2'
     - '3'
-    - {t: /, s: '?'}
+    - {t: ▽, type: trans}
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
